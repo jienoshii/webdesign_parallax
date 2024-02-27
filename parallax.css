@@ -1,0 +1,67 @@
+body, html{
+    font-family: 'IBM Plex Mono', monospace;
+    color: gray;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    line-height: 180%;
+    background-color: antiquewhite;
+}
+.parallax1{
+    background: url('Photos/pets.jpg');
+    min-height: 100%;
+}
+#scrolldown{
+    width: 20%;
+    margin: 350px 0 0 600px;
+    font-weight: bold;
+    background-color: black;
+    position: absolute;
+}
+.demo-container{
+    padding: 10px 0 10px 0;
+}
+#paragraph{
+    text-align: justify;
+}
+.parallax2{
+    background: url('Photos/puppyportrait.jpg');
+    min-height: 100%;
+}
+#lessheight{
+    width: 20%;
+    margin: 350px 0 0 600px;
+    font-weight: bold;
+    background-color: black;
+    position: absolute;
+}
+.parallax3{
+    background: url('Photos/graycat.jpg');
+    min-height: 100%;
+}
+#scrollup{
+    width: 20%;
+    margin: 350px 0 0 600px;
+    font-weight: bold;
+    background-color: black;
+    position: absolute;
+}
+.parallax4{
+    background: url('Photos/cutecat.jpg');
+    min-height: 100%;
+}
+#cool{
+    width: 20%;
+    margin: 350px 0 0 600px;
+    font-weight: bold;
+    background-color: black;
+    position: absolute;
+}
+.parallax1, .parallax2, .parallax3, .parallax4{
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
